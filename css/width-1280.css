@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	max-width: 85%;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 28px;
+	padding: 1%;
+}
+h3 {
+	font-size: 26px;
+	padding: 1%;
+}
+h4 {
+	font-size: 24px;
+	padding: 1%;
+}
+h5 {
+	font-size: 20px;
+	padding: 1%;
+}
+p {
+	font-size: 18px;
+}
+.mobile {
+	display: none;
+}
+.site-header {
+	position: fixed;	
+	width: 85%;
+}
+.home {
+	overflow: hidden;
+}
+
+.site-footer {
+}
+.home-button {
+	width: 40%;
+}
+.menu-footer-menu-container li {
+	font-size: 16px;
+}
+.frame-left, .frame-right {
+	width: 50%;
+	vertical-align: top;
+	float: left;
+}
+#no-blur {
+	max-width: 100.5% !important;	
+}
+.controls {
+	display: none;
+	height: auto;
+	background: none repeat scroll 0% 0% transparent;
+	top: 40%;
+	position: absolute;
+	width: 50%;
+}
+.controls table td {
+	padding: 20px;
+}
+.home-button {
+	background: none repeat scroll 0% 0% transparent !important;
+	border: 2px solid rgb(255, 255, 255) !important;
+	color: rgb(255, 255, 255) !important;
+	text-shadow: 2px 1px rgb(102, 102, 102) !important;
+	text-wrap: none;
+	/*padding: 2% !important;*/
+	font-size: 2em !important;
+	margin: 1%;
+}
+.woocommerce div.product div.images {
+	width: 100% !important;
+}
+
+/*faq mods*/
+.links {
+	max-width: 65%;
+	min-height: 230px;
+	display: inline-block;
+}
+.lower-text {
+	border-top: #FFF solid 2px;
+}
+.about-text p {
+	font-size: 19px;
+}
+.amount {
+	font-size: 30px;
+}
+.site-main li {
+	font-size: 16px;
+}
+.product h3 {
+}
+.button {
+	font-size: 16px !important;
+}
+.products li {
+	height: 400px !important;	
+}
+.product-price .amount, .product-subtotal .amount {
+	font-size: 20px;
+}
+tr, td th {
+	font-size: 20px;
+}
+.checkout-button {
+	color: #fff !important;
+}
+.product_meta {
+	font-size: 200%;
+}
+.addresses {
+	font-size: 18px;
+}
+.payment_methods li {
+	max-width: 90%;
+}

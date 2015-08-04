@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-sixe: 3em;
+}
+h2 {
+	font-size: 2.5em;
+	font-weight: 800;
+}
+h3 {
+	font-size: 2em;
+}
+h4 {
+	font-size: 1.5em;
+	font-weight: 800;
+}
+p, li, span {
+	font-size: 1em;
+}
+body {
+	overflow-x: hidden;
+}
+header {
+	min-width: 100% !important;
+}
+.mobile {
+	text-align: center;
+}
+.logo-m {
+	width: 50% !important;
+}
+.top-navigation {
+	display: none;
+}
+.site_description_m {
+	text-align: center;
+	margin: 0;
+	padding: 1%;
+	border-bottom: 1px solid #fff;
+}
+.site_description_m a, .site_description_m a:hover, .site_description_m a:visited {
+	color: #fff !important;
+}
+.mobile-welcome {
+	padding: 1%;
+}
+.main-navigation, .large, .home .frame-right {
+	display: none;
+}
+.home .site-main {
+	margin-top: 0 !important;
+}
+.site-main {
+	margin-top: 45% !important;
+	min-height: auto !important;
+	height: auto !important;
+}
+.frame-left, .frame-right {
+	width: 95%;
+	margin: auto;
+	display: block;
+}
+.home .frame-left {
+	width: 100% !important;
+}
+.menu-mobile-top-nav-container {
+	position: absolute;
+	right: 0;
+	top: 3%;
+}
+.mobile-navigation {
+	display: none;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	top: 25%;
+	left: -1000px;
+	width: 90%;
+	background: #444;
+}
+.mobile-navigation li {
+	list-style: outside none none;
+	height: 30px;
+	box-shadow: 2px 2px 2px #222;
+	text-align: left;
+	padding: 2%;
+}
+.mobile-navigation a {
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	top: 30%
+}
+.trigger {
+	color: #FFF;
+	list-style: outside none none;
+	cursor: pointer;
+	background: none repeat scroll 0% 0% transparent !important;
+	position: absolute;
+	z-index: 1000;
+	left: 1%;
+	top: 1%;
+	padding: 1%;
+}
+.privacy_policy h2 {
+	font-size: 19px !important;
+	padding-top: 5px;
+}
+.privacy_policy p, .list {
+	text-align: left;
+}
+.trigger span {
+	position: relative;
+	top: 3px;
+}
+.site-footer {
+	width: 100% !important;
+	min-height: auto !important;
+	position: relative !important;
+	padding-bottom: 7%;
+}
+.made-here h4 {
+	width: 100%;
+}
+.made-here img {
+	display: none;
+}
+.menu-footer-menu-container, .menu-footer-menu-container ul, .menu-footer-menu-container li {
+	position: relative;
+	width: auto;
+	padding: 1%;
+}
+.site-tagline {
+	width: 100%;
+}
+
+.amount {
+	font-size: 15px;
+}
+.products li {
+	padding: 2% !important;
+	width: 45% !important;
+	height: 250px !important;
+}
+.woocommerce a.button {
+	font-size: 8px !important;
+	padding: 6px 3px;
+}
+.summary {
+	width: 100% !important;
+	padding: 2% !important;
+}
+.woocommerce-main-image img {
+	width: 80% !important;
+}
+h1 {
+	font-size: 180%;
+}
+/*About mods*/
+.about-text {
+	font-size: 100%;
+	padding-top: 21px;
+	text-align: justify;
+}
+/*faq mods*/
+.links {
+	min-height: 300px;
+	;
+}
+.links a {
+	font-size: 190%;
+	padding: 1em 0;
+}
+.lower-text {
+	border-top: #FFF solid 2px;
+}
+.lower-text p {
+	font-size: 180%;
+}
+.col-1, .col-2 {
+	float: none !important;
+	width: 100% !important;
+}
+.tabs a {
+	font-size: 10px !important;
+}
+.terms label {
+	font-size: 15px !important;
+	position: relative !important;
+	left: -29px !important;
+	top: -5px !important;
+}
+.cart button {
+	font-size: 10px !important;
+}
+.cart_table_item td.product-thumbnail, .cart th.product-thumbnail {
+	display: none;
+}
+.cart_table_item .amount {
+	font-size: 14px;
+}
+.login label, .register label, .payment_box label {
+	font-size: 11px;
+}
+.attachment-shop_thumbnail {
+	width: 75% !important;
+}
+.place-order .input-checkbox {
+	position: relative;
+	left: -30px;
+	top: -5px;
+}
+.zoom {
+	width: 75%;
+}
+.thumbnails {
+	width: 100%;
+}
+.product li {
+	position: relative;
+	left: 5px;
+	font-size: 14px;
+}
+.product_meta {
+	font-size: 14px;
+}
+#countdown {
+	font-size: 20px !important;
+	width: 100% !important;
+}
+.storenotice {
+	padding-bottom: 10px;
+}
+.storenotice p {
+	font-size: 16px !important;
+}
+.storenotice ul li {
+	font-size: 15px;
+	top: 10px;
+}
+#days {
+	right: 20px;
+}
+#hours {
+	left: 5px;
+}
+#minutes {
+	left: 20px;
+}
+.address {
+	margin: 10px 0;
+	font-size: 15px;
+}
+#seconds {
+	left: 28px;
+}
+.columns-3 {
+	left: 0;
+}
+.ngg-galleryoverview {
+	text-align: center;
+	padding: 10px 0;
+}
